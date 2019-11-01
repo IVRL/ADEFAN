@@ -4,7 +4,7 @@ This repository contains the neeeded files to reproduce all results presented in
 
 **[Divergence-Based Adaptive Extreme Video Completion](add link)**
 
-[Majed El Helou](http://majedelhelou.github.io), Ruofan Zhou, Frank Schmutz, Fabrice Guibert, Sabine S{\"u}sstrunk}
+[Majed El Helou](http://majedelhelou.github.io), Ruofan Zhou, Frank Schmutz, Fabrice Guibert, Sabine S&uusstrunk
 
 
 We present an adaptive method, based on color-KL sparse estimation, to reconstruct videos from pixels sampled at extremely low rates (for example 1% of all pixels), and sampled at random locations. **A**daptive **D**epth **E**fficient **F**iltering by **A**daptive **N**ormalization (ADEFAN) is an extremely efficient compression method in terms of pre-processing, while outperforming even MPEG compression at extremely high compression rates. It also provides indirect encryption because a key must be shared to identify the locations of the randomly-sampled pixels.
