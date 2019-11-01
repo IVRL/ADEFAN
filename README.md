@@ -3,6 +3,7 @@
 This repository contains the neeeded files to reproduce all results presented in the paper:
 
 **[Divergence-Based Adaptive Extreme Video Completion](add link)**
+
 [Majed El Helou](http://majedelhelou.github.io), Ruofan Zhou, Frank Schmutz, Fabrice Guibert, Sabine S{\"u}sstrunk}
 
 
