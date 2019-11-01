@@ -19,7 +19,9 @@ We present an adaptive method, based on color-KL sparse estimation, to reconstru
 
 ### 2. To reproduce KL divergence results (Fig 2)
 ...
-
+```
+python code.py
+```
 
 ### 3. To reproduce evaluation results (Fig 3, 4)
 ...
