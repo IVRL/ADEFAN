@@ -26,7 +26,8 @@ python code.py
 ### 3. To reproduce evaluation results (Fig 3, 4)
 ...
 
-
-### 4. To test on your own input video
+### 4. To compare with MPEG-4
 ...
 
+### 5. To test on your own input video
+...
