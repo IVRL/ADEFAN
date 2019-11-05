@@ -30,14 +30,14 @@ Open the ExtremeVideoCompletion notebook and run all the cells in the "Source Co
 
 ### 5. To test on your own input video
 To test on your own input videos without any code modification, you need to have the following directories already created:
-../Resources/Videos/
-../Results/Grids/
-../Results/Frames/
-../Results/CompressedVideos/1percent/
-... same as above for [1-8]percent
-../Results/ReconstructedVideos/1percent/EFAN2D/
-../Results/ReconstructedVideos/1percent/EFAN3D/
-../Results/ReconstructedVideos/1percent/ADEFAN/
+../Resources/Videos/  
+../Results/Grids/  
+../Results/Frames/  
+../Results/CompressedVideos/1percent/  
+... same as above for [1-8]percent  
+../Results/ReconstructedVideos/1percent/EFAN2D/  
+../Results/ReconstructedVideos/1percent/EFAN3D/  
+../Results/ReconstructedVideos/1percent/ADEFAN/  
 ... same as above for [1-8]percent
 
 You can automatically create this directory structure by running the generate_paths [.sh for Linux/Mac or .bat for Windows] script from the location of the repository.
