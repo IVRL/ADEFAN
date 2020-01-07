@@ -26,7 +26,11 @@ Open the ExtremeVideoCompletion notebook and run all the cells in the "Source Co
 Open the ExtremeVideoCompletion notebook and run all the cells in the "Source Code", "Compression" and "Reconstruction and PSNR score" sections. Note that you need to use the same directories as specified in section 5 of this readme if you don't want to modify all the paths in the code.
 
 ### 4. To compare with MPEG-4
-...
+To compare with MPEG-4 compression, you can simply run the following command:
+```
+ffmpeg -i {input_file_path} -vcodec libx265 -crf 51 {output_file_path}
+```
+This will give you a MPEG-compressed video with bitrate of slightly higher than the bitrate of the 2%-sampled videos.
 
 ### 5. To test on your own input video
 To test on your own input videos without any code modification, you need to have the following directories already created:
