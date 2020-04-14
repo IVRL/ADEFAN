@@ -1,13 +1,13 @@
-# ADEFAN
+# Divergence-Based Adaptive Extreme Video Completion (ICASSP 2020)
 
-This repository contains the neeeded files to reproduce all results presented in the paper:
+[Majed El Helou](http://majedelhelou.github.io), Ruofan Zhou, Frank Schmutz, Fabrice Guibert and Sabine Süsstrunk
 
-**[Divergence-Based Adaptive Extreme Video Completion](https://ieee-dataport.org/documents/extreme-video-completion-dataset)**
+[**Paper**](http://infoscience.epfl.ch/record/277003/)  ---  [**Dataset**](https://ieee-dataport.org/documents/extreme-video-completion-dataset)
 
-[Majed El Helou](http://majedelhelou.github.io), Ruofan Zhou, Frank Schmutz, Fabrice Guibert, Sabine Süsstrunk
+This repository contains the neeeded files to reproduce all results presented in the paper.
 
-
-We present an adaptive method, based on color-KL sparse estimation, to reconstruct videos from pixels sampled at extremely low rates (for example 1% of all pixels), and sampled at random locations. **A**daptive **D**epth **E**fficient **F**iltering by **A**daptive **N**ormalization (ADEFAN) is thus aimed at extreme video completion from random pixels. It is also an extremely efficient compression method in terms of pre-processing, while outperforming even MPEG compression at extremely high compression rates. It also provides indirect encryption because a key must be shared to identify the locations of the randomly-sampled pixels.
+> **Abstract:** *Extreme image or video completion, where, for instance, we only retain 1% of pixels in random locations, allows for very cheap sampling in terms of the required pre-processing. The consequence is, however, a reconstruction that is challenging for humans and inpainting algorithms alike. 
+We propose an extension of a state-of-the-art extreme image completion algorithm to extreme video completion. We analyze a color-motion estimation approach based on color KL-divergence that is suitable for extremely sparse scenarios. Our algorithm leverages the estimate to adapt between its spatial and temporal filtering when reconstructing the sparse randomly-sampled video, we call it **A**daptive **D**epth **E**fficient **F**iltering by **A**daptive **N**ormalization (ADEFAN). We validate our results on 50 publicly-available videos using reconstruction PSNR and mean opinion scores.*
 
 ![fig1](fig1.png)
 
@@ -47,3 +47,12 @@ To test on your own input videos without any code modification, you need to have
 You can automatically create this directory structure by running the generate_paths [.sh for Linux/Mac or .bat for Windows] script from the location of the repository.
 
 Finally you need to put your input videos in the ../Resources/Videos/ directory.
+
+### Citation
+
+    @inproceedings{elhelou2020divergence,
+        title={Divergence-Based Adaptive Extreme Video Completion},
+        author={El Helou, Majed and Zhou, Ruofan and Schmutz, Frank and Guibert, Fabrice and S{\"u}sstrunk, Sabine},
+        booktitle={ICASSP},
+        year={2020}
+    }
