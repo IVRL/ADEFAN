@@ -4,7 +4,9 @@
 
 [**Paper**](http://infoscience.epfl.ch/record/277003/)  ---  [**Dataset**](https://ieee-dataport.org/documents/extreme-video-completion-dataset)
 
-This repository contains the neeeded files to reproduce all results presented in the paper.
+This repository contains the neeeded files to reproduce all results presented in the paper. 
+
+Credits to Frank Schmutz for the current implementation.
 
 > **Abstract:** *Extreme image or video completion, where, for instance, we only retain 1% of pixels in random locations, allows for very cheap sampling in terms of the required pre-processing. The consequence is, however, a reconstruction that is challenging for humans and inpainting algorithms alike. 
 We propose an extension of a state-of-the-art extreme image completion algorithm to extreme video completion. We analyze a color-motion estimation approach based on color KL-divergence that is suitable for extremely sparse scenarios. Our algorithm leverages the estimate to adapt between its spatial and temporal filtering when reconstructing the sparse randomly-sampled video, we call it **A**daptive **D**epth **E**fficient **F**iltering by **A**daptive **N**ormalization (ADEFAN). We validate our results on 50 publicly-available videos using reconstruction PSNR and mean opinion scores.*
