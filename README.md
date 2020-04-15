@@ -1,5 +1,7 @@
 # Divergence-Based Adaptive Extreme Video Completion (ICASSP 2020)
 
+**Mirror repository; maintained up-to-date version at: [https://github.com/majedelhelou/ADEFAN](https://github.com/majedelhelou/ADEFAN)**
+
 [Majed El Helou](http://majedelhelou.github.io), Ruofan Zhou, Frank Schmutz, Fabrice Guibert and Sabine Süsstrunk
 
 [**Paper**](http://infoscience.epfl.ch/record/277003/)  ---  [**Dataset**](https://ieee-dataport.org/documents/extreme-video-completion-dataset)
